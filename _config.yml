@@ -1,0 +1,26 @@
+remote_theme: just-the-docs/just-the-docs
+
+title: JB's Blog
+description: ML based on Theory
+baseurl: "/"
+url: "https://github.com/schritt4"
+
+permalink: pretty
+
+aux_links: "https://github.com/schritt4"
+aux_links_new_tab: true
+
+nav_sort: case_sensitive
+
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  preview_words_before: 3
+  preview_words_after: 3
+  tokenizer_seperator: /[\s/]+/
+  rel_url: true
+  button: false
+
+color_scheme: nil
+

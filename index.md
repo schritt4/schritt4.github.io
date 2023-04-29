@@ -3,7 +3,7 @@ layout: default
 title: Home
 nav_order: 1
 description: "homepage"
-premalink: "/"
+permalink: "/"
 ---
 
 # Welcome to my homepage

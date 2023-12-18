@@ -1,6 +1,6 @@
 <div class="sidebar-item sidebar-header">
 	<div class='sidebar-brand'>
-		<a href="/about/">{{ site.title }}</a>
+		<a href="/">{{ site.title }}</a>
 	</div>
 	<p class="lead">{{ site.description }}</p>
 	{%- if social.github -%}
@@ -15,7 +15,10 @@
 	<ul class="nav">
       <li class="nav-title">Pages</li>
 	  <li>
-	  	<a class="nav-item" href="/">Articles</a>
+		<a class="nav-item" href="/">About Me</a>
+	  </li>
+	  <li>
+		<a class="nav-item" href="/articles">Articles</a>
 	  </li>
 	  {% assign pages_list = site.pages %}
 	  {% for node in pages_list %}

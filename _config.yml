@@ -21,11 +21,15 @@
 title: JB'Log
 email: royoet@yonsei.ac.kr
 description: >- # this means to ignore newlines until "baseurl:"
-  Machine Learning
+  Machine Learning <br >/ Deep Learning
 # baseurl: "/" # the subpath of your site, e.g. /blog
 # url: "http://ejjoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: schritt4
+markdown: kramdown
 highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 svg:
   optimize: true
 # Build settings
@@ -37,6 +41,16 @@ plugins:
 category_dir: category/
 tag_dir: tag/
 
+# Markdown Processing
+kramdown:
+input: GFM
+hard_wrap: false
+auto_ids: true
+footnote_nr: 1
+entity_output: as_char
+toc_levels: 1..6
+smart_quotes: lsquo,rsquo,ldquo,rdquo
+enable_coderay: false
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
